@@ -1,1 +1,9 @@
-# draft
+<img alt="+1" title="+1" src="/images/emoji/unicode/1f44d.png"}" style="vertical-align:middle" width="20" height="20" />
+
+Nice work! The purpose of this project was to continue learning Objective-C and the Cocoa Touch (iOS) framework. You should be comfortable creating table views (one of the most common views in iOS) and working with array of dictionaries created from JSON (in this case from the Movies Database API).
+
+A key part of these projects is that you work to polish the visuals and the small UI / UX touches. Developing your design sense is an important part of being a mobile engineer. You'll find that perfecting the UI / UX will often lead to interesting technical challenges as well because the libraries may not behave exactly as you want them to, so you'll have to learn how to achieve the effect that you want. A few other things to note:
+
+* **Did you use groups to organize your source files?** It's pretty common to organize your source files into [Groups](https://developer.apple.com/library/ios/recipes/xcode_help-structure_navigator/articles/Creating_a_Group.html), especially for larger projects. You can organize by type of class (i.e. View Controllers, Views, etc) or for larger apps by functionality (i.e. Home Screen, Search Screen, etc).
+* **Did you minimize the number of public methods and properties in your classes?** You should always try to minimize the number of properties and methods that are in the header files. Only expose what you have to, e.g., properties and methods that must be accessed by other classes.
+* **Did you properly set the Content Mode for your ImageViews?** By default the [UIContentMode](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/#//apple_ref/c/tdef/UIViewContentMode) will stretch the image to match the dimensions of the image view, which is probably not what you want. The most common combination is to use Aspect Fill combined with clipping subviews.
